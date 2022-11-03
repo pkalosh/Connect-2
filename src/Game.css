@@ -47,14 +47,15 @@ body {
     width: 300px;
     margin-left: -120px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .footer button {
-    width: 140px;
+    width: 150px;
+    position: relative;
     height: 50px;
-    margin-left: 5px;
-    margin-top: 15px;
+    left: 50%;
+    top: 20%;
     background-color: lightblue;
     border: 5px solid chocolate;
     font-size: 20px;
