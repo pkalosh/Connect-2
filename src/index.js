@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import GameBoard from './Components/GameBoard';
+import App from './Components/App';
 
 ReactDOM.render(
-    <GameBoard />,
+    <App />,
     document.getElementById('root')
 );
 
